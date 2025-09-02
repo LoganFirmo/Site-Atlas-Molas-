@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <link rel="stylesheet" href="css/orçamento.css">
+    <title>Document</title>
+
+
+    <nav>
+
+
+        <img src="./img/Logo 2.png" alt="Logo marca">
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="index.html"> Home</a>
+            <li><a href="Empresa.html">Empresa</a>
+            <li><a href="Produtos.html">Produtos</a>
+            <li><a href="Cotação.html"> Cotação</a></li>
+            <li><a href="Contato.html"> Contato</a>
+            <li><a href="Fornecedores.html">Fornecedores</a>
+
+        </ul>
+    </nav>
+
+</head>
+
+<body>
+    <div class="container">
+        <!-- Formulário -->
+        <div class="formulario">
+            <h3>Dados do comprador</h3>
+            <form>
+                <label>Nome:* <input type="text"></label><br>
+                <label>Cidade:* <input type="text"></label><br>
+                <label>Estado:* <input type="text"></label><br>
+                <label>Bairro:* <input type="text"></label><br>
+                <label>DDD/Telefone:* <input type="text"></label><br>
+                <label>E-mail:* <input type="email"></label><br>
+            </form>
+
+            <h3>Dados da mola</h3>
+            <form>
+                <label>Extremidades:
+                    <select>
+                        <option>Selecione</option>
+                        <option>Fechadas e Retificadas</option>
+                        <option>Fechadas e não Retificadas</option>
+                        <option>Aberta</option>
+                    </select>
+                </label><br>
+                <label>S/E:
+                    <select>
+                        <option>Selecione</option>
+                        <option>Opcional</option>
+                        <option>À Esquerda</option>
+                        <option>À Direita</option>
+                    </select>
+                </label><br>
+                <label>Selecione o material:
+                    <select>
+                        <option>Selecione</option>
+                        <option>DIN 17223 A</option>
+                        <option>DIN 17223 B</option>
+                        <option>DIN 17223 C</option>
+                        <option>SAE 1070</option>
+                        <option>SAE 1080</option>
+                        <option>SAE 5160</option>
+                        <option>SAE 6150</option>
+                        <option>SAE 9254
+                        </option>
+                        <option>AISI 302
+                        </option>
+                        <option>AISI 304
+                        </option>
+                        <option>AISI 316
+                        </option>
+                        <option>AISI 316 L
+                        </option>
+                        <option>AISI 410
+                        </option>
+                        <option>INCONEL
+                        </option>
+                        <option>MONEL
+                        </option>
+                        <option>HASTELOY
+                        </option>
+                        <option>BRONZE
+                        </option>
+                        <option>Outros</option>
+
+
+
+                    </select>
+                </label><br>
+                <label>Outro material: <input type="text"></label>
+            </form>
+         <h3>Medidas</h3>
+<div class="medidas-grid">
+
+  <div class="field">
+    <label for="d">d:</label>
+    <div class="input-unit">
+      <input id="d" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="lo">Lo:</label>
+    <div class="input-unit">
+      <input id="lo" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="da">Da:</label>
+    <div class="input-unit">
+      <input id="da" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="di">Di:</label>
+    <div class="input-unit">
+      <input id="di" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="if">If:</label>
+    <div class="input-unit">
+      <input id="if" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="ig">Ig:</label>
+    <div class="input-unit">
+      <input id="ig" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="c">C:</label>
+    <div class="input-unit">
+      <input id="c" type="text" inputmode="decimal">
+      <span class="unit">Kgf/mm</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="p1">P1:</label>
+    <div class="input-unit">
+      <input id="p1" type="text" inputmode="decimal">
+      <span class="unit">Kgf</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="l1">L1:</label>
+    <div class="input-unit">
+      <input id="l1" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+  <!-- S1 só na coluna da esquerda -->
+  <div class="field span-left">
+    <label for="s1">S1:</label>
+    <div class="input-unit">
+      <input id="s1" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+        
+  <!-- S1 só na coluna da esquerda -->
+  <div class="field span-left">
+    <label for="s1">S1:</label>
+    <div class="input-unit">
+      <input id="s1" type="text" inputmode="decimal">
+      <span class="unit">mm</span>
+    </div>
+  </div>
+
+</div>
+
+<!-- ===== Dados da cotação ===== -->
+<h3>Dados da cotação</h3>
+<div class="cotacao-grid">
+
+  <div class="field">
+    <label for="quantidade">Quantidade:</label>
+    <div class="input-unit">
+      <input id="quantidade" type="number" min="1" step="1" inputmode="numeric">
+      <span class="unit">Peças</span>
+    </div>
+  </div>
+
+  <div class="field">
+    <label for="prazo">Prazo:</label>
+    <div class="input-unit">
+      <input id="prazo" type="number" min="0" step="1" inputmode="numeric">
+      <span class="unit">Dias</span>
+    </div>
+  </div>
+
+</div>
+
+        
+        <div class="imagem-legenda">
+            <img src="img/espiral.jpg" alt="Desenho da mola">
+            <h3>Legenda</h3>
+            <table>
+                <tr>
+                    <td><b>d</b></td>
+                    <td>Diâmetro do Material</td>
+                </tr>
+                <tr>
+                    <td><b>Lo</b></td>
+                    <td>Altura da Mola</td>
+                </tr>
+                <tr>
+                    <td><b>Da</b></td>
+                    <td>Diâmetro Externo da Mola</td>
+                </tr>
+                <tr>
+                    <td><b>Di</b></td>
+                    <td>Diâmetro Interno da Mola</td>
+                </tr>
+                <tr>
+                    <td><b>If</b></td>
+                    <td>Número de Espiras Ativas</td>
+                </tr>
+                <tr>
+                    <td><b>Ig</b></td>
+                    <td>Número de Espiras Totais</td>
+                </tr>
+                <tr>
+                    <td><b>C</b></td>
+                    <td>Constante Elástica</td>
+                </tr>
+                <tr>
+                    <td><b>P1</b></td>
+                    <td>Carga da Mola em L1 ou S1</td>
+                </tr>
+                <tr>
+                    <td><b>L1</b></td>
+                    <td>Altura Necessária para P1</td>
+                </tr>
+                <tr>
+                    <td><b>S1</b></td>
+                    <td>Curso Necessário para P1</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+
+
+
+
+</body>
+
+</html>
